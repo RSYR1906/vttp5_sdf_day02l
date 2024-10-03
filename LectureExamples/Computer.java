@@ -7,8 +7,12 @@ public class Computer {
     private Integer ram;
     private Integer year;
 
-    public Computer() {
-    } // no arguments constructor
+    public Computer() { // constructor with no arguments
+        this.cpu = "2GHz dual core";
+        this.model = "Gigabyte 1000";
+        this.ram = 8;
+        this.year = 2020;
+    }
 
     public Computer(String cpu, String model, Integer ram, Integer year) { // constructor with paramters and arguments
         this.cpu = cpu;
@@ -55,6 +59,11 @@ public class Computer {
 
     public void displaySpec() {
         System.out.println("Displaying specs:");
+        System.out.println(this.model);
+        System.out.println(this.cpu);
+        System.out.println(this.ram);
+        System.out.println(this.year);
+
     }
 
     public void start() {
