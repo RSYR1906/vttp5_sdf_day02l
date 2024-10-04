@@ -63,6 +63,25 @@ public class Laptop extends Computer {
     public void shutdown() {
         System.out.println("Shutting down computer");
     }
+
+    public Integer computeArithmetic(){
+
+        Integer a = 1;
+        Integer b = 2;
+        Integer sum;
+
+        sum = a + b;
+        return sum;
+    }
+
+    public Integer computeArithmetic(Integer a, Integer b){     //method overloading
+
+        Integer sum;
+
+        sum = a + b;
+        return sum;
+    }
+
     @Override
     public void displaySpec() {
         System.out.println("Displaying specs:");
@@ -72,7 +91,7 @@ public class Laptop extends Computer {
         System.out.println(this.getYear());
 
     }
-    
+
     @Override
     public void start() {
         System.out.println("Computer is powered on");
