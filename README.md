@@ -1,4 +1,4 @@
-#Lecture 2 Notes
+# Lecture 2 Notes
 
 Attributes should be mostly private
 
@@ -16,13 +16,14 @@ this (keyword) helps to access the class level variable
 
 **this.cpu=cpu** [using the value of the class level cpu variable and initialise to the local constructor variable cpu]
 
-##Encapsulation##
+## Encapsulation
 
 getters and setters methods (for private variables in class)
 
 Help to hide all the hidden details.
 
-##Derived Classes##
+## Derived Classes
+
 Parent child relationship [Define by using keyword **extends**]
 Parent class tend to be more generic, child class will be more specific
 
